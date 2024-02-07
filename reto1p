@@ -1,0 +1,8 @@
+# Solicitar al usuario que ingrese su información
+nombre = input("Ingrese su nombre(s): ")
+apellidos = input("Ingrese su(s) apellido(s): ")
+telefono = input("Ingrese su número de teléfono: ")
+email = input("Ingrese su correo electrónico: ")
+
+# Mostrar un mensaje de bienvenida con la información proporcionada
+print(f"Hola {nombre} {apellidos}, en breve recibirás un correo a {email}")
